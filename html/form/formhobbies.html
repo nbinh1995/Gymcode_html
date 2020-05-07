@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            border: solid 1px;
+            height: 350px;
+            width: 600px; 
+            background-color: cornflowerblue;
+        }
+        form {
+            margin: 50px;
+            border: solid 1px;
+            height: 250px;
+            width: 500px;
+            background-color: cornsilk;
+        }
+        h3 {
+            background-color: coral; 
+            margin: 10px;  
+            text-align: center;
+        }
+        .text{
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+            margin-top: 10px;
+        }
+        input{
+            box-shadow: 1px 1px 1px gray inset;
+            margin-top: 10px;
+        }
+        table{
+            float: left;
+        }
+        #send{
+            border: inset;
+            box-shadow: 1px 1px 1px 1px gray;
+        }
+        #rset{
+            border: inset;
+            box-shadow: 1px 1px 1px 1px gray;
+        }
+        #button{
+            clear: left;
+            text-align: center
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <form>
+        <h3> SỞ THÍCH CỦA BẠN </h3>
+
+        <label class="text" for="yourname">Họ và tên</label>
+        <input type="text" name="yourname" size="15"/> <br>
+        <label for="email" class="text"> Email </label>
+        <input type="text" name="email" size="15" /> <br/>
+        <label style="float: left;" for="hobby" class="text">Sở thích</label>
+        <table>
+            <tr>
+                <td><input type="checkbox" name="hobby" value="1">Thể thao</td>
+                <td><input type="checkbox" name="hobby" value="2">Âm nhạc</td>
+                <td><input type="checkbox" name="hobby" value="3">Đọc sách</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="hobby" value="4">Lướt web</td>
+                <td><input type="checkbox" name="hobby" value="5">Chơi game</td>
+                <td><input type="checkbox" name="hobby" value="6">Điện ảnh </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="hobby" value="7">Du lịch </td>
+            </tr>
+        </table>
+        <div id= button>
+            <input type="submit" id="send" value="Gửi thông tin">
+            <input type="reset" id="rset" value="Nhập lại"> 
+        </div> 
+        
+    </div>
+    </form>
+
+</body>
+</html>

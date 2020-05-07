@@ -1,0 +1,93 @@
+/**total**/
+*{
+    font-family: 'Times New Roman', Times, serif
+}
+body{ position: relative;}
+#left{
+    width: 25%;
+    position: absolute;
+    border: 2px solid grey;
+    padding-left: 10px;
+    background-color: cornflowerblue;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+}
+#right{
+    width: 70%;
+    height: 800px;
+    position: absolute;
+    border: 2px solid grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: mintcream;
+    right: 30px;
+    top: 0px;
+}
+#right h3{
+    background-color: khaki;
+}
+/**name_img**/
+#name_img img{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+#name_img p{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px ;
+}
+h2{
+    text-align: center;
+}
+/**info**/
+#info div{
+    margin-top: 10px;
+}
+
+/** skil**/
+#skill p{
+    font-weight: bold;
+}
+#skill table{
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#skill tr{
+    height: 10px;
+    border: 1px solid black;
+}
+
+#len_1_1{
+    width: 300px;
+    background-color: black;
+}
+#len_2_1{
+    width: 170px;
+    background-color: black;
+}
+#len_2_2{
+    width: 130px;
+    background-color: white;
+}
+#len_3_1{
+    width: 250px;
+    background-color:black;
+}
+#len_3_2{
+    width: 50px;
+    background-color: white;
+}
+/**hobbies**/
+#hobbies{
+    margin-bottom: 20px ;
+}
+#hobbies span{
+    margin-right: 50px;
+}
+/**exp**/
+#exp {
+ clea
+}
